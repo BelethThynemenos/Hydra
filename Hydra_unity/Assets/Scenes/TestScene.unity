@@ -172,13 +172,13 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"idee_sovversive","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"val_cred_regime","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"val_cred_sovv","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"spawn_rate_generali","value":{"$content":7,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"spawn_rate_generali","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"spawn_rate_sovv","value":{"$content":0.3,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"spawn_rate_regime","value":{"$content":0.2,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"idee_generali","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"time_spawn","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"credibilty_factor_regime","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"credibility_factor_sovv","value":{"$content":4,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"credibilty_factor_regime","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"credibility_factor_sovv","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"credibility_action","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"credibility_start","value":{"$content":5000,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"spawn_point_regime","value":{"$content":[0,1,2,3,4,5,6,7,8,9,10,11,12],"$type":"System.Collections.Generic.List`1[[UnityEngine.Transform,
@@ -203,6 +203,10 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"main_logic","value":{"$content":56,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"sovversive_time_evolve_1","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"sovversive_time_evolve_2","value":{"$content":8,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"prefab_idee_sovversive","value":{"$content":57,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"prefab_idee_regime","value":{"$content":58,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1117283915}
@@ -245,7 +249,7 @@ MonoBehaviour:
     - {fileID: 188737041}
     - {fileID: 1137904333}
     - {fileID: 5945081891980986653}
-    - {fileID: 2034722284}
+    - {fileID: 429809656}
     - {fileID: 4864333793630476385}
     - {fileID: 939838274}
     - {fileID: 253971657}
@@ -262,6 +266,8 @@ MonoBehaviour:
     - {fileID: 1872777931}
     - {fileID: 2054165569}
     - {fileID: 1633929606}
+    - {fileID: 3555523731176769918, guid: de0f17b8223832045bacd4c682906630, type: 3}
+    - {fileID: 1090073429464069308, guid: 780ca8bca0aea51488f40ed6bd32c300, type: 3}
 --- !u!4 &47425251
 Transform:
   m_ObjectHideFlags: 0
@@ -838,6 +844,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 226906350}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180.047}
+--- !u!1 &429809656 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3555523731176769918, guid: de0f17b8223832045bacd4c682906630, type: 3}
+  m_PrefabInstance: {fileID: 1695089925}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &497400770
 GameObject:
   m_ObjectHideFlags: 0
@@ -3886,6 +3897,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 226906350}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180.047}
+--- !u!1001 &1695089925
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3555523731176769918, guid: de0f17b8223832045bacd4c682906630, type: 3}
+      propertyPath: m_Name
+      value: Idea sovversiva (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: de0f17b8223832045bacd4c682906630, type: 3}
 --- !u!1 &1738993821
 GameObject:
   m_ObjectHideFlags: 0
@@ -4472,68 +4540,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1062566779}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180.047}
---- !u!1001 &2034722283
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.49
-      objectReference: {fileID: 0}
-    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 70444172108011315, guid: de0f17b8223832045bacd4c682906630, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555523731176769918, guid: de0f17b8223832045bacd4c682906630, type: 3}
-      propertyPath: m_Name
-      value: Idea sovversiva (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: de0f17b8223832045bacd4c682906630, type: 3}
---- !u!1 &2034722284 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3555523731176769918, guid: de0f17b8223832045bacd4c682906630, type: 3}
-  m_PrefabInstance: {fileID: 2034722283}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2051155711
 GameObject:
   m_ObjectHideFlags: 0
@@ -4832,7 +4838,7 @@ SceneRoots:
   - {fileID: 1872777930}
   - {fileID: 2054165568}
   - {fileID: 5945081891980986652}
-  - {fileID: 2034722283}
+  - {fileID: 1695089925}
   - {fileID: 4864333793630476384}
   - {fileID: 939838273}
   - {fileID: 253971656}
